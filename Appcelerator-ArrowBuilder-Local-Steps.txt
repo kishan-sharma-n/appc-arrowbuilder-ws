@@ -1,0 +1,52 @@
+D:\Kishan\Workspaces\Appcelerator>appc new
+Finding latest version ...6.0.0 OK
+Validating security checksum OK
+Installing ... OK
+Compiling platform native modules ...
+└ socket.io-client/ws ... OK
+└ bunyan/dtrace-provider ...  OK
+└ appc-ldapjs/dtrace-provider ...  OK
+└ package/fsevents ...  OK
+Appcelerator Login required to continue ...
+
+? Appcelerator ID: kishansharma.narayanan@cognizant.com
+? Password: ***********
+
+This computer must be authorized before you can complete your login.
+
+
+An authorization code was sent to your email at kishansharma.narayanan@cognizant.com
+
+? Please enter the authorization code you received via your email at kishansharma.narayanan@cognizant.com: 2695
+
+This computer is now authorized: Windows Machine ID: 53d65220-a503-4db2-b841-5f14617bb8f7
+You can deauthorize this computer by logging out with appc logout -D
+
+Generating Developer Certificate and Private/Public Keys...
+? What type of project are you creating? Arrow App (arrow)
+? What's the project name? myHelloWorld
+
+*** new completed. ***
+
+
+
+D:\Kishan\Workspaces\Appcelerator>cd myHelloWorld
+
+D:\Kishan\Workspaces\Appcelerator\myHelloWorld>appc run
+Appcelerator Command-Line Interface, version 6.0.0
+Copyright (c) 2014-2016, Appcelerator, Inc.  All Rights Reserved.
+
+Fetching connector/appc.arrowdb@1.1.11
+Fetching connector/appc.composite@1.1.6
+Installed 2 modules
+Installed:  connector/appc.arrowdb, connector/appc.composite
+INFO   | Arrow/1.8.12 myHelloWorld/1.0.0
+INFO   | APIKey is: 9S4hs0LrWkQa6RNz3CtBX4mbKVd0scUh
+INFO   | starting connector/appc.arrowdb@1.1.11
+INFO   | started connector/appc.arrowdb
+INFO   | Access the Arrow admin at http://127.0.0.1:8080/arrow. This will only be available on your dev environment. To enable in production, set enableAdminInProduction in your
+config
+INFO   | Access the Arrow API doc at http://127.0.0.1:8080/apidoc
+INFO   | started
+INFO   | server started on port 8080
+
